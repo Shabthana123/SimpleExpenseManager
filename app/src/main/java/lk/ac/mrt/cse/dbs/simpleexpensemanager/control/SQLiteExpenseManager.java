@@ -9,12 +9,12 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Account;
 
 public class SQLiteExpenseManager extends ExpenseManager{
     /*** Start ***/
-    public SQLiteExpenseManager() throws ExpenseManagerException {
+    public SQLiteExpenseManager() {
         setup();
     }
 
     @Override
-    public void setup() throws ExpenseManagerException {
+    public void setup()  {
 
         AccountDAO sqliteMemoryAccountDAO = new SQLiteAccountDAO();
         setAccountsDAO(sqliteMemoryAccountDAO);
