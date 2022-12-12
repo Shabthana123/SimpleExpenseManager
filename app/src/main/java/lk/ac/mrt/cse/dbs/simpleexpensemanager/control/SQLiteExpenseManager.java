@@ -23,7 +23,6 @@ public class SQLiteExpenseManager extends ExpenseManager{
         setTransactionsDAO(sqliteTransactionDAO);
 
 
-
         // test data
         Account testAcct1 = new Account("723412", "Celon Bank", "Aswin Kumar", 11000.0);
         Account testAcct2 = new Account("129834", "hatton national bank", "Vinson Robert", 70000.0);
